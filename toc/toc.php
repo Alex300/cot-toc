@@ -96,7 +96,7 @@ function toc_display($t, $tpl, $item, $level, $number, $only_siblings = FALSE)
 					$view_page = true;
 				}
 			}
-			if ($view_pag){
+			if ($view_page){
 				$t1->assign('LIST_LEVEL', $level);
 				$t1->parse('LIST');
 			}
