@@ -4,7 +4,7 @@
 Code=toc
 Name=Table Of Contents
 Description=Displays Table of contents of a given category
-Version=1.0
+Version=1.0.1
 Date=2012-06-04
 Author=Trustmaster
 Copyright=&copy; Vladimir Sibirov 2012
@@ -25,4 +25,3 @@ cache=14:radio::1:Enable cache
 ==================== */
 
 defined('SED_CODE') or die('Wrong URL');
-?>

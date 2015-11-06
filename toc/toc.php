@@ -57,7 +57,7 @@ function toc($cat, $tpl = 'toc', $only_siblings = FALSE)
 		toc_display($t, $tpl, $item, 1, $num, $only_siblings);
 		$num++;
 	}
-	$t->assign('LIST_LEVEL', 1);
+	$t->assign('LIST_LEVEL', 0);
 	$t->parse('LIST');
 	return $t->text('LIST');
 }
