@@ -80,7 +80,7 @@ function toc_display($t, $tpl, $item, $level, $number, $only_siblings = FALSE)
 	{
 		// Check permissions
 		if (!cot_auth('page', $item['code'], 'R'))
-			continue;
+			return;
 
 		// Render subtrees
 		if (count($item['items']) > 0)
