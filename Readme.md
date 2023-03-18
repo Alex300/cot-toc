@@ -2,6 +2,8 @@
 
 Renders contents tree for a given category.
 
+Original plugin by Vladimir Sibirov (trustmaster): https://github.com/trustmaster/cot-toc
+
 ## Installation
 
 1. Download.
